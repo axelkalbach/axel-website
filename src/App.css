@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-wrapper{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./assets/images/philly_skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 27rem;
+  width: 100%;
+}
+
+.header-info {
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.name {
+  color: black;
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.header-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-desc {
+  text-align: left;
+}
+
+.icon {
+  color: black;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.socials-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5rem;
+}
+
+.grad-img {
+  height: 30rem;
+}
+
+.about-me-text {
+  padding-top:  5rem;
+  padding-right: 5rem;
+}
+
+.about-me-img {
+  padding-right: 5rem;
+  padding-top:  5rem;
+  height: auto;
+}
+
+.about-me-description {
+  text-align: left;
+}
+
+.experience-icon {
+  max-width: 10rem;
+  height: auto;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.experience-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences-wrapper {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+
+.footer {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./assets/images/generic_background_green.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.double-footer {
+  color: rgb(104, 104, 104);
+}
+
+a {
+  text-decoration: none !important; 
+  color: inherit !important;
+}
+
+@media (max-width: 700px) {
+  .header-info {
+    flex-direction: column; /* Vertical alignment for smaller screens */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    height: 100px;
+    width: 100px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-desc {
+    text-align: center;
+  }
+
+  .about-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .grad-img {
+    height: 20rem;
+  }
+
+  .about-me-img {
+    padding-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .experience-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .experience-icon {
+    justify-content: center;
+  }
+
+  .experiences-wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+  }
+
+}
