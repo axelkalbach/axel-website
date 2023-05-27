@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/axel-website/static/css/main.b88ed7d1.css",
+    "main.js": "/axel-website/static/js/main.0d05e4be.js",
+    "static/js/787.b0ce6e62.chunk.js": "/axel-website/static/js/787.b0ce6e62.chunk.js",
+    "static/media/grad_throw.jpg": "/axel-website/static/media/grad_throw.f8198122e7076d889840.jpg",
+    "static/media/generic_background_green.jpg": "/axel-website/static/media/generic_background_green.cb0a25415961fe8d0260.jpg",
+    "static/media/philly_skyline.jpg": "/axel-website/static/media/philly_skyline.50d181e5a2ef423c5bee.jpg",
+    "static/media/susquehanna_logo.jpg": "/axel-website/static/media/susquehanna_logo.f20ed89f9d53b7f11c49.jpg",
+    "static/media/profile_edited.jpg": "/axel-website/static/media/profile_edited.3a99fc388b1aefacc6ba.jpg",
+    "static/media/thon_logo.jpg": "/axel-website/static/media/thon_logo.e8fa1bf61c02493a0572.jpg",
+    "static/media/cgi_logo.jpg": "/axel-website/static/media/cgi_logo.729ba153ab7c1173e6ae.jpg",
+    "static/media/logo.svg": "/axel-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/axel-website/index.html",
+    "main.b88ed7d1.css.map": "/axel-website/static/css/main.b88ed7d1.css.map",
+    "main.0d05e4be.js.map": "/axel-website/static/js/main.0d05e4be.js.map",
+    "787.b0ce6e62.chunk.js.map": "/axel-website/static/js/787.b0ce6e62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88ed7d1.css",
+    "static/js/main.0d05e4be.js"
+  ]
+}
