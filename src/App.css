@@ -156,7 +156,7 @@ a {
   color: inherit !important;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .header-info {
     flex-direction: column; /* Vertical alignment for smaller screens */
     align-items: center;
